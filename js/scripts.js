@@ -276,6 +276,8 @@
 /*轮播图初始化*/
 $(function () {
     var myOption = {
+        autoplay: 3000,
+        autoplayDisableOnInteraction: true,
         createPagination: false,
         centeredSlides: true,
         calculateHeight: true,
